@@ -74,6 +74,12 @@ class KanbanBoard extends Page
 
     protected function getEloquentQuery(): Builder
     {
-        return static::$model::query();
+        //return static::$model::query();
+
+    }
+
+    public function hel()
+    {
+        return 34;
     }
 }
